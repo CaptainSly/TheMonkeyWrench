@@ -1,0 +1,36 @@
+modLoader="javafml" #mandatory
+loaderVersion="[37,)"
+license="Apache License, Version 2.0"
+
+[[mods]]
+modId="monkeywrench"
+version="0.1.0B"
+displayName="The Monkey Wrench"
+credits="kaupenjoe's tutorials"
+logoFile="logo.png"
+authors="Azraein"
+description='''
+A Tech mod, for 1.17 and up that allows you to automate machines, process resources, craft new tools, items and blocks.
+Eat new foods and manage a new type of storage system.
+'''
+
+[[dependencies.monkeywrench]]
+    modId="forge"
+    mandatory=true
+    versionRange="[37,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.monkeywrench]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1,1.18)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.monkeywrench]]
+    modId="jei"
+    mandatory=false
+    versionRange="[1.17.1-8.2.0.37,)"
+    ordering="AFTER"
+    side="BOTH"
